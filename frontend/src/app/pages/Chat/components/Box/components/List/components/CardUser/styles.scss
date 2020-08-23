@@ -1,0 +1,48 @@
+@import 'src/assets/sass/variables.scss';
+
+.Chat .Box .List .CardUser {
+  display: flex;
+  padding: 15px;
+  cursor: pointer;
+  margin-bottom: 15px;
+  .image_carduser {
+    img {
+      width: 60px;
+      height: 60px;
+    }
+    margin-right: 15px;
+  }
+  .carduser_content {
+    width: 100%;
+    .carduser_header {
+      display: flex;
+      justify-content: space-between;
+      p {
+        font-size: 0.9rem;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+      }
+      .user {
+        font-size: 1.1rem;
+        font-weight: bold;
+      }
+    }
+    .carduser_main {
+      margin: 10px 0;
+      p {
+        color: $dark3;
+        font-size: 1.2rem;
+        font-family: Roboto;
+      }
+    }
+    .carduser_footer {
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+
+  &.active {
+    background-color: $grey-secondary;
+  }
+}

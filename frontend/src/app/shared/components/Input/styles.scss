@@ -1,0 +1,47 @@
+@import 'src/assets/sass/variables.scss';
+
+.Input {
+  margin: 5px 0px;
+  position: relative;
+  .MuiFormControl-root {
+    width: 100%;
+    .MuiInputBase-root {
+      svg,
+      path {
+        fill: $purple;
+      }
+    }
+    .MuiFormHelperText-root.Mui-error {
+      right: 0;
+      margin: 0;
+      bottom: -20px;
+      color: #f44336;
+      position: absolute;
+    }
+  }
+
+  .MuiOutlinedInput-root.Mui-error .MuiFormHelperText-root.Mui-error {
+    right: 0px;
+    bottom: -20px;
+    position: absolute;
+  }
+
+  .MuiInput-underline:after {
+    border-bottom: 2px solid $title;
+  }
+
+  .MuiInputBase-input {
+    height: 25px !important;
+  }
+
+  .MuiFormControl-root {
+    .MuiOutlinedInput-root {
+      .MuiOutlinedInput-input {
+        padding: 14px;
+      }
+      .MuiOutlinedInput-notchedOutline {
+        border-radius: 10px;
+      }
+    }
+  }
+}

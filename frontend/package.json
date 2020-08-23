@@ -1,0 +1,58 @@
+{
+  "name": "web-chatbee",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Hackathon of bee",
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.45",
+    "@material-ui/pickers": "^3.2.10",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.19.2",
+    "chart.js": "^2.9.3",
+    "classnames": "2.2.6",
+    "customize-cra": "^1.0.0",
+    "formik": "^2.1.5",
+    "history": "4.9.0",
+    "jquery": "^3.5.1",
+    "material-table": "^1.68.0",
+    "moment": "^2.27.0",
+    "node-sass": "^4.14.1",
+    "react": "^16.13.1",
+    "react-app-rewired": "^2.1.6",
+    "react-chartkick": "^0.4.1",
+    "react-dom": "^16.13.1",
+    "react-hook-form": "^4.9.7",
+    "react-material-datepicker": "^1.0.4",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.3",
+    "react-text-mask": "^5.4.3",
+    "react-toastify": "^5.5.0",
+    "talkjs": "^0.14.2",
+    "yup": "^0.28.1"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+@import 'src/assets/sass/variables.scss';
+
+.Autocomplete {
+  .MuiAutocomplete-popupIndicator,
+  .MuiAutocomplete-clearIndicator {
+    color: $primary;
+  }
+  .MuiFormControl-root .MuiOutlinedInput-root .MuiOutlinedInput-input {
+    padding: 5px !important;
+    padding-left: 0;
+  }
+}

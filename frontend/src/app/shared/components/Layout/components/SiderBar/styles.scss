@@ -1,0 +1,68 @@
+@import 'src/assets/sass/variables.scss';
+
+.SiderBar {
+  width: 90px;
+  display: flex;
+  padding: 20px 0;
+  align-items: center;
+  flex-direction: column;
+  background-color: $primary;
+  justify-content: space-between;
+  .sidebar-header {
+    .sidebar-header__logo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .sidebar-header__routes {
+      display: flex;
+      margin-top: 3rem;
+      flex-direction: column;
+      span {
+        width: 60px;
+        height: 60px;
+        display: block;
+        display: flex;
+        cursor: pointer;
+        border-radius: 10px;
+        margin-bottom: 15px;
+        align-items: center;
+        justify-content: center;
+        background-color: #6b4b71;
+        .Icon {
+          path {
+            fill: $white;
+          }
+        }
+        &.active, &:hover {
+          background-color: $wine;
+          .Icon {
+            path {
+              fill: $orange;
+            }
+          }
+        }
+      }
+    }
+  }
+  .sidebar-footer {
+    cursor: pointer;
+    .user {
+      margin: 0;
+      width: 50px;
+      height: 50px;
+      border-radius: 15px;
+      border: 2px solid $orange;
+      img {
+        width: 100%;
+      }
+    }
+    .exit {
+      color: $white;
+      margin-top: 10px;
+      font-weight: bold;
+      font-size: 1.1rem;
+      text-align: center;
+    }
+  }
+}

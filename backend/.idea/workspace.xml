@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fc8f05d8-ccd1-4165-b45f-91838c39f17d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/Cliente/ConversationController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/Master/ClientController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/Master/ClientController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Client.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Client.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="composer.json" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/fruitcake/laravel-cors" />
+      <path value="$PROJECT_DIR$/vendor/fideloper/proxy" />
+      <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/league/commonmark" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/vendor/scrivo/highlight.php" />
+      <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/vendor/league/mime-type-detection" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/collection" />
+      <path value="$PROJECT_DIR$/vendor/facade/ignition" />
+      <path value="$PROJECT_DIR$/vendor/facade/flare-client-php" />
+      <path value="$PROJECT_DIR$/vendor/facade/ignition-contracts" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/asm89/stack-cors" />
+      <path value="$PROJECT_DIR$/vendor/brick/math" />
+      <path value="$PROJECT_DIR$/vendor/voku/portable-ascii" />
+      <path value="$PROJECT_DIR$/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/vendor/phpseclib/phpseclib" />
+      <path value="$PROJECT_DIR$/vendor/php-http/message-factory" />
+      <path value="$PROJECT_DIR$/vendor/league/event" />
+      <path value="$PROJECT_DIR$/vendor/league/oauth2-server" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-diactoros" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-zendframework-bridge" />
+      <path value="$PROJECT_DIR$/vendor/laravel/passport" />
+      <path value="$PROJECT_DIR$/vendor/firebase/php-jwt" />
+      <path value="$PROJECT_DIR$/vendor/lcobucci/jwt" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/vendor/defuse/php-encryption" />
+      <path value="$PROJECT_DIR$/vendor/nyholm/psr7" />
+      <path value="$PROJECT_DIR$/vendor/symfony/psr-http-message-bridge" />
+      <path value="$PROJECT_DIR$/vendor/mtolhuys/laravel-schematics" />
+      <path value="$PROJECT_DIR$/vendor/silber/bouncer" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1gQkgqQd7vBxWjvAzrMosnNZfv4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Http/Controllers/Api/Cliente" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Services" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
+    <property name="settings.editor.selected.configurable" value="LogHighlighting" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/Http/Controllers/Api/Cliente" />
+      <recent name="$PROJECT_DIR$/app/Services" />
+      <recent name="$PROJECT_DIR$/app/Repositories" />
+      <recent name="$PROJECT_DIR$/app/Models" />
+      <recent name="$PROJECT_DIR$/app" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/Services/Contracts" />
+      <recent name="$PROJECT_DIR$/app/Services/Abstracts" />
+      <recent name="$PROJECT_DIR$/app/Repositories/Abstracts" />
+      <recent name="$PROJECT_DIR$/app/Repositories/Contracts" />
+      <recent name="$PROJECT_DIR$/app/Repositories" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner scope="XML" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fc8f05d8-ccd1-4165-b45f-91838c39f17d" name="Default Changelist" comment="" />
+      <created>1598054317326</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598054317326</updated>
+      <workItem from="1598054318550" duration="19275000" />
+      <workItem from="1598076845979" duration="238000" />
+      <workItem from="1598077187917" duration="62000" />
+      <workItem from="1598077264706" duration="43000" />
+      <workItem from="1598077309860" duration="77000" />
+    </task>
+    <task id="LOCAL-00001" summary="feat(database): add raw migrations">
+      <created>1598054611991</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598054611991</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat(database): add raw migrations">
+      <created>1598055911150</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1598055911150</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat(database): add user seed">
+      <created>1598058676542</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1598058676542</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat(user): add uuid trait">
+      <created>1598060271069</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1598060271069</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat(user): move user model to model path">
+      <created>1598060571085</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1598060571085</updated>
+    </task>
+    <task id="LOCAL-00006" summary="chore(factory): remove unused dependency">
+      <created>1598060945925</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1598060945925</updated>
+    </task>
+    <task id="LOCAL-00007" summary="style(migrations): format">
+      <created>1598062328903</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1598062328903</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat(channel): create model">
+      <created>1598063343977</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1598063343977</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat(cliente): create model with relationships">
+      <created>1598066682638</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1598066682638</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feat(cliente): implements uuid on models">
+      <created>1598067942769</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1598067942769</updated>
+    </task>
+    <task id="LOCAL-00011" summary="feat(uuid): incrementing false when creating">
+      <created>1598069273273</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1598069273273</updated>
+    </task>
+    <task id="LOCAL-00012" summary="feat(package): add laravel schematics">
+      <created>1598072421797</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1598072421797</updated>
+    </task>
+    <task id="LOCAL-00013" summary="feat(package): add schematics on public">
+      <created>1598072464304</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1598072464304</updated>
+    </task>
+    <task id="LOCAL-00014" summary="feat(package): add schematics on public">
+      <created>1598072472728</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1598072472728</updated>
+    </task>
+    <task id="LOCAL-00015" summary="feat(models): add relationships">
+      <created>1598072497095</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1598072497095</updated>
+    </task>
+    <task id="LOCAL-00016" summary="feat(repositories): create base">
+      <created>1598075728050</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1598075728050</updated>
+    </task>
+    <task id="LOCAL-00017" summary="feat(repositories): create some repos">
+      <created>1598075738528</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1598075738528</updated>
+    </task>
+    <task id="LOCAL-00018" summary="refactor(controllers): change repository injection">
+      <created>1598075763634</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1598075763634</updated>
+    </task>
+    <task id="LOCAL-00019" summary="feat(repositories): add all repos">
+      <created>1598075961503</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1598075961503</updated>
+    </task>
+    <task id="LOCAL-00020" summary="feat(services): add service pattern">
+      <created>1598076661306</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1598076661306</updated>
+    </task>
+    <task id="LOCAL-00021" summary="chore(ideia): files">
+      <created>1598076676589</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1598076676589</updated>
+    </task>
+    <task id="LOCAL-00022" summary="chore(git): ignore idea path">
+      <created>1598076879581</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1598076879581</updated>
+    </task>
+    <task id="LOCAL-00023" summary="chore(controller): fix typo">
+      <created>1598077235618</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1598077235618</updated>
+    </task>
+    <task id="LOCAL-00024" summary="feat(repositories): user roles">
+      <created>1598101999172</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1598101999172</updated>
+    </task>
+    <task id="LOCAL-00025" summary="chore(repositories): change base to abstracts path">
+      <created>1598102239322</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1598102239322</updated>
+    </task>
+    <task id="LOCAL-00026" summary="chore(services): change base to abstracts path">
+      <created>1598102319407</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1598102319407</updated>
+    </task>
+    <task id="LOCAL-00027" summary="feat(services): agent service with controller refactoring">
+      <created>1598102511555</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1598102511555</updated>
+    </task>
+    <task id="LOCAL-00028" summary="feat(services): controller refactoring">
+      <created>1598102624738</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1598102624738</updated>
+    </task>
+    <task id="LOCAL-00029" summary="fix(services): repository import">
+      <created>1598102725972</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1598102725972</updated>
+    </task>
+    <task id="LOCAL-00030" summary="feat(services): does not use repository in controller">
+      <created>1598102765118</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1598102765118</updated>
+    </task>
+    <task id="LOCAL-00031" summary="fix(repositories): base repo import">
+      <created>1598102835437</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1598102835437</updated>
+    </task>
+    <task id="LOCAL-00032" summary="fix(repositories): remove method fluent return types">
+      <created>1598102982262</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1598102982262</updated>
+    </task>
+    <task id="LOCAL-00033" summary="fix(repositories): add timestamps and remove unnecessary soft deletes">
+      <created>1598103134005</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1598103134005</updated>
+    </task>
+    <task id="LOCAL-00034" summary="fix(bouncer): change entity_id to uuid">
+      <created>1598103443655</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1598103443655</updated>
+    </task>
+    <task id="LOCAL-00035" summary="fix(seed): encrypt user password">
+      <created>1598103626932</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1598103626932</updated>
+    </task>
+    <task id="LOCAL-00036" summary="chore(client): remove duplicated files">
+      <created>1598104458033</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1598104458033</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="feat(uuid): incrementing false when creating" />
+    <MESSAGE value="feat(package): add laravel schematics" />
+    <MESSAGE value="feat(package): add schematics on public" />
+    <MESSAGE value="feat(models): add relationships" />
+    <MESSAGE value="feat(repositories): create base" />
+    <MESSAGE value="feat(repositories): create some repos" />
+    <MESSAGE value="refactor(controllers): change repository injection" />
+    <MESSAGE value="feat(repositories): add all repos" />
+    <MESSAGE value="feat(services): add service pattern" />
+    <MESSAGE value="chore(ideia): files" />
+    <MESSAGE value="chore(git): ignore idea path" />
+    <MESSAGE value="chore(controller): fix typo" />
+    <MESSAGE value="feat(repositories): user roles" />
+    <MESSAGE value="chore(repositories): change base to abstracts path" />
+    <MESSAGE value="chore(services): change base to abstracts path" />
+    <MESSAGE value="feat(services): agent service with controller refactoring" />
+    <MESSAGE value="feat(services): controller refactoring" />
+    <MESSAGE value="fix(services): repository import" />
+    <MESSAGE value="feat(services): does not use repository in controller" />
+    <MESSAGE value="fix(repositories): base repo import" />
+    <MESSAGE value="fix(repositories): remove method fluent return types" />
+    <MESSAGE value="fix(repositories): add timestamps and remove unnecessary soft deletes" />
+    <MESSAGE value="fix(bouncer): change entity_id to uuid" />
+    <MESSAGE value="fix(seed): encrypt user password" />
+    <MESSAGE value="chore(client): remove duplicated files" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore(client): remove duplicated files" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="761" y="239" width="389" height="626" key="#com.intellij.ide.util.MemberChooser" timestamp="1598101527975">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="761" y="239" width="389" height="626" key="#com.intellij.ide.util.MemberChooser/0.28.1920.1052/0.1080.1366.768@0.28.1920.1052" timestamp="1598101527975" />
+    <state x="693" y="159" width="858" height="898" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1598101757115">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="693" y="159" width="858" height="898" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.28.1920.1052/0.1080.1366.768@0.28.1920.1052" timestamp="1598101757115" />
+    <state x="693" y="159" width="518" height="783" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/275.1080.1366.768/0.28.1920.1052@0.28.1920.1052" timestamp="1598062633995" />
+    <state x="693" y="312" width="526" height="480" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1598076162868">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="693" y="312" width="526" height="480" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/275.1080.1366.768/0.28.1920.1052@0.28.1920.1052" timestamp="1598076162868" />
+    <state x="655" y="161" width="504" height="626" key="#com.jetbrains.php.refactoring.extract.interface.PhpExtractInterfaceDialog#" timestamp="1598101449818">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="655" y="161" width="504" height="626" key="#com.jetbrains.php.refactoring.extract.interface.PhpExtractInterfaceDialog#/0.28.1920.1052/0.1080.1366.768@0.28.1920.1052" timestamp="1598101449818" />
+    <state x="704" y="239" width="504" height="626" key="#com.jetbrains.php.refactoring.extract.interface.PhpExtractInterfaceDialog#/275.1080.1366.768/0.28.1920.1052@0.28.1920.1052" timestamp="1598076394134" />
+    <state x="511" y="113" width="794" height="817" key="CommitChangelistDialog2" timestamp="1598104457953">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="511" y="113" width="794" height="817" key="CommitChangelistDialog2/0.28.1920.1052/0.1080.1366.768@0.28.1920.1052" timestamp="1598104457953" />
+    <state x="511" y="113" width="960" height="797" key="CommitChangelistDialog2/275.1080.1366.768/0.28.1920.1052@0.28.1920.1052" timestamp="1598076879485" />
+    <state x="269" y="340" width="819" height="736" key="CommitChangelistDialog2/275.1080.1366.768/0.340.1920.740@0.340.1920.740" timestamp="1598054611649" />
+    <state x="99" y="128" width="1722" height="853" key="DiffContextDialog" timestamp="1598062304316">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="99" y="128" width="1722" height="853" key="DiffContextDialog/275.1080.1366.768/0.28.1920.1052@0.28.1920.1052" timestamp="1598062304316" />
+    <state x="743" y="318" width="426" height="480" key="FileChooserDialogImpl" timestamp="1598077385996">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="743" y="318" width="426" height="480" key="FileChooserDialogImpl/0.28.1920.1052/0.1080.1366.768@0.28.1920.1052" timestamp="1598077385996" />
+    <state x="743" y="298" width="426" height="480" key="FileChooserDialogImpl/275.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1598055292898" />
+    <state width="1878" height="279" key="GridCell.Tab.0.bottom" timestamp="1598076833721">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state width="1878" height="279" key="GridCell.Tab.0.bottom/275.1080.1366.768/0.28.1920.1052@0.28.1920.1052" timestamp="1598076833721" />
+    <state width="1324" height="177" key="GridCell.Tab.0.bottom/275.1080.1366.768/0.340.1920.740@0.340.1920.740" timestamp="1598054344542" />
+    <state width="1878" height="279" key="GridCell.Tab.0.center" timestamp="1598076833720">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state width="1878" height="279" key="GridCell.Tab.0.center/275.1080.1366.768/0.28.1920.1052@0.28.1920.1052" timestamp="1598076833720" />
+    <state width="1324" height="177" key="GridCell.Tab.0.center/275.1080.1366.768/0.340.1920.740@0.340.1920.740" timestamp="1598054344541" />
+    <state width="1878" height="279" key="GridCell.Tab.0.left" timestamp="1598076833720">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state width="1878" height="279" key="GridCell.Tab.0.left/275.1080.1366.768/0.28.1920.1052@0.28.1920.1052" timestamp="1598076833720" />
+    <state width="1324" height="177" key="GridCell.Tab.0.left/275.1080.1366.768/0.340.1920.740@0.340.1920.740" timestamp="1598054344541" />
+    <state width="1878" height="279" key="GridCell.Tab.0.right" timestamp="1598076833720">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state width="1878" height="279" key="GridCell.Tab.0.right/275.1080.1366.768/0.28.1920.1052@0.28.1920.1052" timestamp="1598076833720" />
+    <state width="1324" height="177" key="GridCell.Tab.0.right/275.1080.1366.768/0.340.1920.740@0.340.1920.740" timestamp="1598054344542" />
+    <state x="247" y="92" width="1515" height="786" key="MergeDialog" timestamp="1598069084886">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="247" y="92" width="1515" height="786" key="MergeDialog/275.1080.1366.768/0.28.1920.1052@0.28.1920.1052" timestamp="1598069084886" />
+    <state x="597" y="319" width="717" height="467" key="MultipleFileMergeDialog" timestamp="1598069084889">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="597" y="319" width="717" height="467" key="MultipleFileMergeDialog/275.1080.1366.768/0.28.1920.1052@0.28.1920.1052" timestamp="1598069084889" />
+    <state x="738" y="260" width="435" height="584" key="RollbackChangesDialog" timestamp="1598063218539">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="738" y="260" width="435" height="584" key="RollbackChangesDialog/275.1080.1366.768/0.28.1920.1052@0.28.1920.1052" timestamp="1598063218539" />
+    <state x="464" y="189" key="SettingsEditor" timestamp="1598057969721">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="464" y="189" key="SettingsEditor/275.1080.1366.768/0.28.1920.1052@0.28.1920.1052" timestamp="1598057969721" />
+    <state x="842" y="472" width="228" height="161" key="VCS.EditChangelistDialog" timestamp="1598077316453">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="842" y="472" width="228" height="161" key="VCS.EditChangelistDialog/0.28.1920.1052/0.1080.1366.768@0.28.1920.1052" timestamp="1598077316453" />
+    <state x="539" y="288" width="802" height="524" key="Vcs.Push.Dialog.v2" timestamp="1598104460397">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="539" y="288" width="802" height="524" key="Vcs.Push.Dialog.v2/0.28.1920.1052/0.1080.1366.768@0.28.1920.1052" timestamp="1598104460397" />
+    <state x="539" y="288" width="802" height="532" key="Vcs.Push.Dialog.v2/275.1080.1366.768/0.28.1920.1052@0.28.1920.1052" timestamp="1598076886765" />
+    <state x="278" y="446" width="802" height="524" key="Vcs.Push.Dialog.v2/275.1080.1366.768/0.340.1920.740@0.340.1920.740" timestamp="1598054613633" />
+    <state x="768" y="471" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598102059888">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="768" y="471" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.28.1920.1052/0.1080.1366.768@0.28.1920.1052" timestamp="1598102059888" />
+    <state x="768" y="471" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/275.1080.1366.768/0.28.1920.1052@0.28.1920.1052" timestamp="1598075398294" />
+    <state x="666" y="178" width="587" height="753" key="find.popup" timestamp="1598068145071">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="666" y="178" width="587" height="753" key="find.popup/275.1080.1366.768/0.28.1920.1052@0.28.1920.1052" timestamp="1598068145071" />
+    <state x="623" y="260" width="672" height="678" key="search.everywhere.popup" timestamp="1598103550701">
+      <screen x="0" y="28" width="1920" height="1052" />
+    <state x="2751" y="238" width="896" height="697" key="search.everywhere.popup" timestamp="1598105357229">
+      <screen x="1920" y="0" width="2560" height="1080" />
+    </state>
+    <state x="623" y="260" width="672" height="678" key="search.everywhere.popup/0.28.1920.1052/0.1080.1366.768@0.28.1920.1052" timestamp="1598103550701" />
+    <state x="623" y="260" width="672" height="678" key="search.everywhere.popup/275.1080.1366.768/0.28.1920.1052@0.28.1920.1052" timestamp="1598077083365" />
+    <state x="2751" y="238" width="896" height="697" key="search.everywhere.popup/60.27.1860.1053/1920.0.2560.1080@1920.0.2560.1080" timestamp="1598105357229" />
+  </component>
+</project>

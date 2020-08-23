@@ -1,0 +1,8 @@
+@import 'src/assets/sass/variables.scss';
+
+.AddAutocomplete {
+  .MuiAutocomplete-inputRoot[class*='MuiInput-root']
+    .MuiAutocomplete-input:first-child {
+    padding: 10px 0;
+  }
+}

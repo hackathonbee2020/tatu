@@ -1,0 +1,23 @@
+@import 'src/assets/sass/variables.scss';
+
+.Clients {
+  .List {
+    padding: 20px;
+    border-radius: 20px;
+    background: $grey-secondary;
+    .list-main {
+      .Table {
+        overflow-y: scroll;
+        height: calc(100vh - 280px);
+        table{
+          tr{
+            cursor: pointer;
+            &:hover{
+              background-color: $grey-secondary;
+            }
+          }
+        }
+      }
+    }
+  }
+}

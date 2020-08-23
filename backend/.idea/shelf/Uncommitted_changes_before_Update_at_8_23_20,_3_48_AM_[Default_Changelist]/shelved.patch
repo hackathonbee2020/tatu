@@ -1,0 +1,69 @@
+Index: app/Models/User.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?php\n\nnamespace App\\Models;\n\nuse App\\Traits\\UuidTrait;\nuse Illuminate\\Database\\Eloquent\\SoftDeletes;\nuse Illuminate\\Foundation\\Auth\\User as Authenticatable;\nuse Illuminate\\Notifications\\Notifiable;\nuse Laravel\\Passport\\HasApiTokens;\nuse Silber\\Bouncer\\Database\\HasRolesAndAbilities;\n\nclass User extends Authenticatable\n{\n    use Notifiable, HasApiTokens, SoftDeletes, UuidTrait, HasRolesAndAbilities;\n\n    public    $incrementing = false;\n    protected $keyType      = 'string';\n    protected $casts        = [\n        'id'                => 'string',\n        'email_verified_at' => 'datetime',\n    ];\n    \n    protected $fillable = [\n        'name',\n        'email',\n        'password',\n        'avatar'\n    ];\n\n    protected $hidden = [\n        'password',\n        'remember_token',\n    ];\n\n    public function clientes()\n    {\n        $this->belongsToMany(Cliente::class, 'cliente_user');\n    }\n\n    public function conversations()\n    {\n        $this->belongsToMany(Conversation::class, UserConversation::class);\n    }\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/Models/User.php	(revision d0f8c84c86196b33a59fae8132620978de1985cd)
++++ app/Models/User.php	(date 1598165070253)
+@@ -2,6 +2,7 @@
+ 
+ namespace App\Models;
+ 
++use App\Scopes\ClienteScope;
+ use App\Traits\UuidTrait;
+ use Illuminate\Database\Eloquent\SoftDeletes;
+ use Illuminate\Foundation\Auth\User as Authenticatable;
+@@ -19,7 +20,7 @@
+         'id'                => 'string',
+         'email_verified_at' => 'datetime',
+     ];
+-    
++
+     protected $fillable = [
+         'name',
+         'email',
+@@ -32,6 +33,12 @@
+         'remember_token',
+     ];
+ 
++    protected static function boot()
++    {
++        parent::boot();
++        static::addGlobalScope(new ClienteScope(''));
++    }
++
+     public function clientes()
+     {
+         $this->belongsToMany(Cliente::class, 'cliente_user');
+Index: app/Scopes/ClienteScope.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/Scopes/ClienteScope.php	(date 1598164851730)
++++ app/Scopes/ClienteScope.php	(date 1598164851730)
+@@ -0,0 +1,22 @@
++<?php
++
++namespace App\Scopes;
++
++use Illuminate\Database\Eloquent\Builder;
++use Illuminate\Database\Eloquent\Model;
++use Illuminate\Database\Eloquent\Scope;
++
++class ClienteScope implements Scope
++{
++    private $cliente_id;
++
++    public function __construct($cliente_id)
++    {
++        $this->cliente_id = $cliente_id;
++    }
++
++    public function apply(Builder $builder, Model $model)
++    {
++        $builder->where('cliente_id', $this->cliente_id);
++    }
++}

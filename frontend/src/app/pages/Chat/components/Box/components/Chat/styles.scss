@@ -1,0 +1,16 @@
+@import 'src/assets/sass/variables.scss';
+
+.Chat {
+  .chat-maessage {
+    // padding: 20px;
+    height: calc(100vh - 150px);
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+@media not all and (max-width: 640px) {
+  .Inbox.chat-only .center-stage {
+    max-width: 100% !important;
+  }
+}

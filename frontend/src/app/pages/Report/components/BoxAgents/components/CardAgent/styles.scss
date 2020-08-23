@@ -1,0 +1,52 @@
+@import 'src/assets/sass/variables.scss';
+
+.Report {
+  .BoxAgents {
+    .CardAgent {
+      display: flex;
+      margin-bottom: 20px;
+      justify-content: space-between;
+      .char-agent-user {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .user {
+          width: 70px;
+          height: 70px;
+          margin-right: 10px;
+          border-radius: 15px;
+          border: 2px solid $orange;
+          img {
+            width: 100%;
+          }
+        }
+        .user-name {
+          color: $white;
+          font-size: 1rem;
+          font-family: $font-semibold;
+        }
+        .user-description {
+          color: $white;
+          margin-top: 5px;
+          font-size: 0.8rem;
+          font-family: $font-regular;
+        }
+      }
+      .chard-channel-main {
+        div {
+          &:first-child {
+            color: $grey;
+            font-size: 1rem;
+            font-family: $font-semibold;
+          }
+          &:last-child {
+            color: $white;
+            font-size: 1.2rem;
+            text-align: right;
+            font-family: $font-regular;
+          }
+        }
+      }
+    }
+  }
+}

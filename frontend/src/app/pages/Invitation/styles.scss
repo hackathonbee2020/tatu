@@ -1,0 +1,83 @@
+@import 'src/assets/sass/variables.scss';
+
+.Invitation {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  background-size: 100% 60%;
+  background-color: $label;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  .invitation-logo {
+    top: 2rem;
+    left: 10rem;
+    position: absolute;
+    svg {
+      path {
+        fill: $purple;
+      }
+    }
+  }
+  .invitation-main {
+    padding: 2rem;
+    width: 30rem;
+    border-radius: 20px;
+    background-color: $white;
+    .invitation-main-header {
+      text-align: center;
+      margin-bottom: 20px;
+      h3 {
+        color: $title;
+        margin: 0;
+        font-size: 2rem;
+        margin-bottom: 10px;
+        font-family: $font-semibold;
+      }
+      p {
+        font-size: 1rem;
+        font-family: $font-regular;
+        span {
+          color: $purple;
+          font-family: $font-semibold;
+        }
+      }
+    }
+    .invitation-main-content {
+      .invitation-main-content-main {
+        .Input {
+          margin-bottom: 20px;
+          .MuiOutlinedInput-root {
+            position: relative;
+            border-radius: 15px;
+            height: 55px;
+            .MuiOutlinedInput-input {
+              padding-left: 5px;
+            }
+          }
+        }
+      }
+      a {
+        margin: 0;
+        color: $purple;
+        font-size: 0.9rem;
+        font-family: $font-semibold;
+      }
+    }
+    .invitation-main-footer {
+      margin-top: 20px;
+      button {
+        width: 100%;
+        border: none;
+        padding: 15px;
+        color: $white;
+        font-size: 15px;
+        border-radius: 10px;
+        background-color: $purple;
+        font-family: $font-semibold;
+      }
+    }
+  }
+}

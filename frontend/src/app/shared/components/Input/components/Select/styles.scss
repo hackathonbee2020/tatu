@@ -1,0 +1,26 @@
+@import 'src/assets/sass/variables.scss';
+
+.Select {
+  .MuiSelect-icon {
+    color: $primary;
+  }
+  &.error {
+    .MuiInput-underline:after {
+      transform: scaleX(1);
+      border-bottom-color: #f44336;
+    }
+    .MuiFormLabel-root {
+      color: #f44336;
+    }
+    .MuiFormHelperText-root {
+      position: absolute;
+      color: #f44336;
+      right: 0;
+      bottom: -20px;
+    }
+  }
+  .MuiInputLabel-formControl {
+    top: -5px;
+    color:  $title;
+  }
+}

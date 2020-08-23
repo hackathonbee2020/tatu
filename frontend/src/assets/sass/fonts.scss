@@ -1,0 +1,61 @@
+@import 'src/assets/sass/variables.scss';
+
+/* FONTS ------------------------------------------------------------ * /
+
+/* Poppins Light */
+@font-face {
+  font-display: swap;
+  unicode-range: U+000-5FF;
+  font-family: 'Poppins Light';
+  src: url('../fonts/poppins/Poppins-Light.ttf'), url('../fonts/poppins/Poppins-LightItalic.ttf');
+}
+
+/* Poppins Regular */
+@font-face {
+  font-display: swap;
+  unicode-range: U+000-5FF;
+  font-family: 'Poppins'; 
+  src: url('../fonts/poppins/Poppins-Regular.ttf');
+}
+
+/* Poppins Regular */
+@font-face {
+  font-display: swap;
+  unicode-range: U+000-5FF;
+  font-family: 'Poppins Regular';
+  src: url('../fonts/poppins/Poppins-Regular.ttf');
+}
+
+/* Poppins Bold */
+@font-face {
+  font-display: swap;
+  unicode-range: U+000-5FF;
+  font-family: 'Poppins Bold';
+  src: url('../fonts/poppins/Poppins-Bold.ttf'), url('../fonts/poppins/Poppins-BoldItalic.ttf');
+}
+
+/* Poppins Extrabold */
+@font-face {
+    font-display: swap;
+    unicode-range: U+000-5FF;
+    font-family: 'Poppins ExtraBold';
+    src: url('../fonts/poppins/Poppins-ExtraBold.ttf'), url('../fonts/poppins/Poppins-ExtraBoldItalic.ttf');
+  }
+  
+/* Poppins ExtraLight */
+@font-face {
+    font-display: swap;
+    unicode-range: U+000-5FF;
+    font-family: 'Poppins ExtraLight';
+    src: url('../fonts/poppins/Poppins-ExtraLight.ttf'), url('../fonts/poppins/Poppins-ExtraLightItalic.ttf');
+  }
+
+  /* Poppins SemiBold */
+@font-face {
+    font-display: swap;
+    unicode-range: U+000-5FF;
+    font-family: 'Poppins SemiBold';
+    src: url('../fonts/poppins/Poppins-SemiBold.ttf'), url('../fonts/poppins/Poppins-SemiBoldItalic.ttf');
+  }
+  
+  

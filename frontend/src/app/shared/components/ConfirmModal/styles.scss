@@ -1,0 +1,48 @@
+@import 'src/assets/sass/variables.scss';
+
+.ConfirmModal {
+  .MuiDialog-paperWidthSm {
+    padding: 2rem;
+    max-width: 35rem;
+    border-radius: 20px;
+  }
+
+  .confirm-modal-close {
+    top: 15px;
+    right: 15px;
+    position: absolute;
+  }
+
+  .confirm-modal-title {
+    h2 {
+      margin: auto;
+      font-size: 2rem;
+      text-align: center;
+      margin-bottom: 1.2rem;
+      font-family: $font-semibold;
+    }
+  }
+
+  .confirm-modal-subtitle {
+    p {
+      margin: auto;
+      font-size: 1.2rem;
+      text-align: center;
+      font-family: $font-regular;
+    }
+  }
+
+  .confirm-modal-actions {
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    .buttons_modal {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+}

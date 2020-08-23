@@ -1,0 +1,36 @@
+@import 'src/assets/sass/variables.scss';
+
+.Users {
+  .List {
+    .Header {
+      padding: 10px 0;
+      .MuiGrid-item {
+        margin: auto;
+        .Button {
+          text-align: center;
+        }
+      }
+      .header_select {
+        .Input {
+          border-radius: 15px;
+          background-color: #f4f1f5;
+          .MuiInputBase-root {
+            height: 50px;
+            svg path {
+              fill: $purple-secondary;
+            }
+            .MuiOutlinedInput-notchedOutline {
+              border: none;
+            }
+          }
+          .MuiInputLabel-formControl {
+            left: 15px;
+          }
+          .MuiOutlinedInput-root .MuiOutlinedInput-input {
+            padding: 15px;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+@import 'src/assets/sass/variables.scss';
+
+.Chat {
+  .Box {
+    .Chat {
+      .Message {
+        display: flex;
+        max-width: 60%;
+        margin-bottom: 10px;
+        .avatar {
+          border-radius: 10px;
+          margin-right: 20px;
+          img {
+            width: 40px;
+            height: 40px;
+          }
+        }
+        .message-main {
+          .message-description {
+            padding: 20px;
+            color: $white;
+            border-radius: 10px;
+            border-top-left-radius: 0;
+            background-color: $purple-secondary;
+          }
+          .message-time {
+            text-align: right;
+            color: $subtitle;
+            font-size: 0.8rem;
+            margin-top: 5px;
+          }
+        }
+        &.right {
+          margin-left: auto;
+          flex-direction: row-reverse;
+          .avatar {
+            margin-left: 10px;
+          }
+          .message-main {
+            .message-description {
+              color: $title;
+              border-radius: 10px;
+              background-color: $label;
+              border-top-right-radius: 0;
+            }
+            .message-time {
+              text-align: left;
+            }
+          }
+        }
+      }
+    }
+  }
+}

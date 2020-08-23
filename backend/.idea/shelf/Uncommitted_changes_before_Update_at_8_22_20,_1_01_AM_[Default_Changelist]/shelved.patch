@@ -1,0 +1,72 @@
+Index: app/Traits/UuidTrait.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?php\n\nnamespace App\\Traits;\n\nuse Ramsey\\Uuid\\Uuid;\n\ntrait UuidTrait\n{\n    public static function bootUuidTrait()\n    {\n        static::creating(function ($model) {\n            $model->id = Uuid::uuid4();\n        });\n    }\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/Traits/UuidTrait.php	(revision dcf56e4422b5e32bca133acc1f6da6405d8bc185)
++++ app/Traits/UuidTrait.php	(date 1598068145099)
+@@ -9,6 +9,8 @@
+     public static function bootUuidTrait()
+     {
+         static::creating(function ($model) {
++            $model->incrementing = false;
++
+             $model->id = Uuid::uuid4();
+         });
+     }
+Index: app/Models/Channel.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?php\n\nnamespace App\\Models;\n\nuse App\\Traits\\UuidTrait;\nuse Illuminate\\Database\\Eloquent\\Model;\nuse Illuminate\\Database\\Eloquent\\SoftDeletes;\n\nclass Channel extends Model\n{\n    use SoftDeletes, UuidTrait;\n\n    public $incrementing = false;\n\n    protected $table = 'clientes';\n\n    protected $dates = ['deleted_at'];\n\n    protected $fillable = [\n        'name',\n        'status'\n    ];\n\n    public function cliente()\n    {\n        $this->belongsTo(Cliente::class);\n    }\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/Models/Channel.php	(revision dcf56e4422b5e32bca133acc1f6da6405d8bc185)
++++ app/Models/Channel.php	(date 1598068145083)
+@@ -10,8 +10,6 @@
+ {
+     use SoftDeletes, UuidTrait;
+ 
+-    public $incrementing = false;
+-
+     protected $table = 'clientes';
+ 
+     protected $dates = ['deleted_at'];
+Index: app/Models/Cliente.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?php\n\nnamespace App\\Models;\n\nuse App\\ClienteUser;\nuse App\\Traits\\UuidTrait;\nuse Illuminate\\Database\\Eloquent\\Model;\nuse Illuminate\\Database\\Eloquent\\SoftDeletes;\n\nclass Cliente extends Model\n{\n    use SoftDeletes, UuidTrait;\n\n    public $incrementing = false;\n\n    protected $table = 'clientes';\n\n    protected $dates = ['deleted_at'];\n\n    protected $fillable = [\n        'nome',\n    ];\n\n    public function channel()\n    {\n        $this->hasMany(Channel::class);\n    }\n\n    public function users()\n    {\n        $this->belongsToMany(User::class, ClienteUser::class);\n    }\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/Models/Cliente.php	(revision dcf56e4422b5e32bca133acc1f6da6405d8bc185)
++++ app/Models/Cliente.php	(date 1598068145095)
+@@ -11,8 +11,6 @@
+ {
+     use SoftDeletes, UuidTrait;
+ 
+-    public $incrementing = false;
+-
+     protected $table = 'clientes';
+ 
+     protected $dates = ['deleted_at'];
+Index: app/Models/User.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?php\n\nnamespace App\\Models;\n\nuse App\\ClienteUser;\nuse App\\Traits\\UuidTrait;\nuse Illuminate\\Database\\Eloquent\\SoftDeletes;\nuse Illuminate\\Foundation\\Auth\\User as Authenticatable;\nuse Illuminate\\Notifications\\Notifiable;\n\nclass User extends Authenticatable\n{\n    use Notifiable, SoftDeletes, UuidTrait;\n\n    public $incrementing = false;\n\n    protected $fillable = [\n        'name',\n        'email',\n        'password',\n        'avatar'\n    ];\n\n    protected $hidden = [\n        'password',\n        'remember_token',\n    ];\n\n    protected $casts = [\n        'email_verified_at' => 'datetime',\n    ];\n\n    public function clientes()\n    {\n        $this->belongsToMany(Cliente::class, ClienteUser::class);\n    }\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/Models/User.php	(revision dcf56e4422b5e32bca133acc1f6da6405d8bc185)
++++ app/Models/User.php	(date 1598068143875)
+@@ -12,8 +12,6 @@
+ {
+     use Notifiable, SoftDeletes, UuidTrait;
+ 
+-    public $incrementing = false;
+-
+     protected $fillable = [
+         'name',
+         'email',

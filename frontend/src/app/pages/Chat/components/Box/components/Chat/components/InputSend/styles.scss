@@ -1,0 +1,43 @@
+@import 'src/assets/sass/variables.scss';
+
+.Chat {
+  .Box {
+    .Chat {
+      .InputSend {
+        padding: 5px;
+        display: flex;
+        overflow: hidden;
+        background: $grey-secondary;
+        .input-content {
+          width: 100%;
+          .Input {
+            .MuiInputBase-root {
+              border-radius: 10px;
+              background-color: $label;
+              svg path {
+                fill: $primary;
+              }
+              .MuiOutlinedInput-notchedOutline {
+                border: none;
+              }
+              .MuiInputBase-input{
+                width: 100%;
+              }
+            }
+          }
+        }
+        .input-send {
+          padding: 15px;
+          button {
+            border: none;
+            outline: none;
+            color: $purple;
+            font-weight: bold;
+            font-size: 1rem;
+            background-color: transparent;
+          }
+        }
+      }
+    }
+  }
+}

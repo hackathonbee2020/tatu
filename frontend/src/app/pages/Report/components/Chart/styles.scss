@@ -1,0 +1,15 @@
+@import 'src/assets/sass/variables.scss';
+
+.Report {
+  .Chart {
+    .chat-header {
+      h4 {
+        margin: auto;
+        color: $title;
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+        font-family: $font-semibold;
+      }
+    }
+  }
+}

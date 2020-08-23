@@ -1,0 +1,17 @@
+@import 'src/assets/sass/variables.scss';
+
+.Chat {
+  .Box {
+    .List {
+      border-right: 2px solid $grey;
+      min-height: calc(100vh - 60px);
+      .Filter{
+        padding: 1rem;
+      }
+      .list-content{
+        height: 700px;
+        overflow-y: auto;
+      }
+    }
+  }
+}

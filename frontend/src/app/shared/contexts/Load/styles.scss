@@ -1,0 +1,111 @@
+@import 'src/assets/sass/variables.scss';
+
+.Load {
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  opacity: 0;
+  opacity: 1;
+  display: none;
+  display: block;
+  z-index: 99999;
+  color: #bbb;
+  position: fixed;
+  transition-property: all;
+  transition-duration: 100ms;
+
+  .background {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    position: fixed;
+    background: $primary;
+  }
+
+  .image {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    position: fixed;
+    color: #3c4858;
+    font-weight: bold;
+    .lds-css {
+      margin: calc(50vh - 100px) calc(50vw - 50px) 0px;
+    }
+  }
+}
+
+.Load {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  .image {
+    h5 {
+      margin: 0px;
+      display: flex;
+      font-size: 20px;
+      color: #ffffff;
+      font-weight: bold;
+      text-transform: uppercase;
+      justify-content: center;
+    }
+  }
+}
+
+@keyframes lds-rolling {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+    -webkit-transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+    -webkit-transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+@-webkit-keyframes lds-rolling {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+    -webkit-transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+    -webkit-transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+.LoadImage {
+  .lds-rolling {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    position: relative;
+    width: 100px !important;
+    height: 100px !important;
+    transform: translate(-50px, -50px) scale(1) translate(50px, 50px);
+    -webkit-transform: translate(-50px, -50px) scale(1) translate(50px, 50px);
+
+    div {
+      top: 50px;
+      left: 50px;
+      animation: lds-rolling 1s linear infinite;
+      -webkit-animation: lds-rolling 3.4s linear infinite;
+    }
+
+    div:after {
+      transform: rotate(90deg);
+      -webkit-transform: rotate(90deg);
+    }
+
+    div,
+    div:after {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      position: absolute;
+      border: 4px solid $grey;
+      border-top-color: #bababa;
+    }
+  }
+}

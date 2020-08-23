@@ -1,0 +1,16 @@
+@import 'src/assets/sass/variables.scss';
+
+.DatePicker {
+  .MuiIconButton-root {
+    color: $primary;
+  }
+}
+
+.MuiPickersToolbar-toolbar ,.MuiPickersDay-daySelected{
+  background-color: $primary !important;
+}
+
+
+.MuiButton-textPrimary {
+  color: $primary !important;
+}

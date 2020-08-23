@@ -1,0 +1,11 @@
+@import 'src/assets/sass/variables.scss';
+
+.Password {
+  .MuiFormHelperText-root{
+    right: 0;
+    bottom: -20px;
+    color: $error;
+    position: absolute;
+    margin: 0 !important;
+  }
+}

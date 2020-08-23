@@ -1,0 +1,6 @@
+@media not all and (max-width: 640px)
+{
+    .Inbox.chat-only .center-stage {
+        max-width: 100% !important;
+    }
+}

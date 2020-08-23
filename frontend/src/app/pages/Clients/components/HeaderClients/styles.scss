@@ -1,0 +1,19 @@
+@import 'src/assets/sass/variables.scss';
+
+.Clients {
+  .HeaderClients {
+    display: flex;
+    padding: 20px;
+    padding-top: 0;
+    padding-left: 0px;
+    .header-title {
+      margin-right: 20px;
+      h2 {
+        margin: 0;
+        color: $wine;
+        font-size: 2rem;
+        font-family: $font-semibold;
+      }
+    }
+  }
+}

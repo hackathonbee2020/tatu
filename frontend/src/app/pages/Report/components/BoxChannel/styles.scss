@@ -1,0 +1,21 @@
+@import 'src/assets/sass/variables.scss';
+
+.Report {
+  .BoxChannel {
+    top: -40px;
+    padding: 2rem;
+    position: relative;
+    background-color: $grey-dark;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    .box-channel-header {
+      h4 {
+        margin: auto;
+        color: #512B58;
+        font-size: 2rem;
+        font-family: $font-semibold;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}

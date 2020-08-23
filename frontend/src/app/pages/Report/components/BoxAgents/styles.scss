@@ -1,0 +1,25 @@
+@import 'src/assets/sass/variables.scss';
+
+.Report {
+  .BoxAgents {
+    padding: 2.2rem;
+    border-radius: 30px;
+    background-color: $wine;
+    .box-agents-header {
+      h4 {
+        margin: auto;
+        color: $orange;
+        font-size: 2.5rem;
+        margin-bottom: 10px;
+        font-family: $font-semibold;
+      }
+    }
+    .box-agents-main {
+      .CardAgent {
+        &:last-child{
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+@import 'src/assets/sass/variables.scss';
+
+.Layout {
+  .content {
+    width: 100%;
+    .main {
+      padding: 40px;
+      min-height: calc(100vh - 80px);
+    }
+  }
+}

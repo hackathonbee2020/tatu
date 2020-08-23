@@ -1,0 +1,85 @@
+@import 'src/assets/sass/variables.scss';
+@import 'src/assets/sass/fonts.scss';
+
+
+.hub-container {
+}
+
+.Hub .Panel.items-panel {
+  padding: 20px !important;
+  max-width: 700px;
+  display: none !important;
+}
+
+body,
+html {
+  margin: 0;
+  width: 100%;
+  background-color: $grey;
+  font-family: 'Poppins Light';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+  font-family: 'Poppins Light';
+}
+
+.red {
+  color: $primary;
+}
+
+.point {
+  cursor: pointer;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.center-x {
+  justify-content: center;
+}
+
+.center-y {
+  align-items: center;
+}
+
+.mg-0 {
+  margin: 0 !important;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.mr-5 {
+  margin-right: 5px;
+}
+
+.pd-0 {
+  padding: 0px !important;
+}
+
+.px-0 {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.py-0 {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
